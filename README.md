@@ -8,13 +8,8 @@ This project automates the provisioning of a Kubernetes cluster using Terraform 
 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Terraform Configuration](#terraform-configuration)
-- [Ansible Configuration](#ansible-configuration)
-- [Deployment](#deployment)
-- [Accessing the Kubernetes Cluster](#accessing-the-kubernetes-cluster)
-- [Cleaning Up](#cleaning-up)
-- [Contributing](#contributing)
-- [License](#license)
+- [Policy Validation Summary](#scan-policy-validation-using-terrascan)
+- [Cost Summary](#mothly-cost-calculated-using-infracost)
 
 ## Prerequisites
 
@@ -54,5 +49,5 @@ Before you begin, ensure you have the following prerequisites:
 
 ## Scan Policy Validation Using [terrascan](https://runterrascan.io/)
 ![policy validation summry](images/Scan_Policies_Validatation.png)
-## Mothly cost calculated Using [infracost](https://www.infracost.io/)
+## Mothly Cost Calculated Using [infracost](https://www.infracost.io/)
 ![Cost](images/costestimate.png)
