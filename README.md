@@ -31,7 +31,7 @@ Before you begin, ensure you have the following prerequisites:
    ```bash
    git clone https://github.com/singhragvendra503/k8s_using_terraform_ansible.git
    cd k8s_using_terraform_ansible
-2. Put api key file in root directory
+2. Put JSON service account key file (`terraform-gcp-provider-64fb3b5e93e3.json`) for authentication.
 3. ```bash
     terraform init
 
@@ -54,5 +54,5 @@ Before you begin, ensure you have the following prerequisites:
 
 ## Scan Policy Validation Using [terrascan](https://runterrascan.io/)
 ![policy validation summry](images/Scan_Policies_Validatation.png)
-## Mothly cost calculated by using [infracost](https://www.infracost.io/)
+## Mothly cost calculated Using [infracost](https://www.infracost.io/)
 ![Cost](images/costestimate.png)
