@@ -2,7 +2,7 @@
 
 This project automates the provisioning of a Kubernetes cluster using Terraform and configures it with Ansible. It sets up one Kubernetes master node and two worker nodes on Google Cloud Platform (GCP). The infrastructure setup and configuration are fully automated, making it easy to deploy and manage a Kubernetes cluster.
 ## Overview
-![](images/Overview.png)
+![](./images/Overview.png)
 
 ## Table of Contents
 
@@ -48,6 +48,6 @@ Before you begin, ensure you have the following prerequisites:
     kubectl get pods -A
 
 ## Scan Policy Validation Using [terrascan](https://runterrascan.io/)
-![policy validation summry](images/Scan_Policies_Validatation.png)
+![policy validation summry](./images/Scan_Policies_Validatation.png)
 ## Mothly Cost Calculated Using [infracost](https://www.infracost.io/)
-![Cost](images/costestimate.png)
+![Cost](./images/costestimate.png)
